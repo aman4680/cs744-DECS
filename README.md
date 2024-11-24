@@ -1,3 +1,9 @@
+In this project, we have tried to build & develop a Publisher-Subscriber Platform for a News Aggregator System that ensures: 
+- Real-time news distribution.
+- Publishers share news efficiently,
+- Subscribers receive personalized, relevant updates
+using our Pub-Sub model.
+
 publisher.c: Contains the code for publishing the data to broker
 broker.c: Contains the code for accepting the data to from publisher & sending the data to subscriber based on what topics the subscribers have subscribed
 subscriber.c: Contains the code for getting the data from broker for subscribers from the respective topics they have subscribed to
